@@ -1,0 +1,106 @@
+* {
+    --cardImageWidth: 20rem;
+    --cardImageHeight: 18rem;
+}
+
+.card {
+    width: 30rem;
+    padding: 1rem;
+    margin: 1rem 0.5rem;
+    background: var(--cardColor);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 1rem;
+}
+
+
+.listView .card {
+    margin: 1rem 0.2rem;
+}
+
+.card_image {
+    z-index: 0;
+    border-radius: 0.5rem;
+    background: var(--cardColor);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin-bottom: 1rem;
+}
+
+.card_description {
+    z-index: 2;
+    width: 15%;
+    justify-content: center;
+    background: var(--cardColor);
+    border-radius: 1.5rem;
+    margin: -5rem 0 1rem 1rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+}
+
+.inline_block {
+    display: inline-block;
+}
+
+.profile_small {
+    width: 3rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    border-radius: 10rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.user_icons {
+    margin-right: 0.3rem;
+}
+
+@media only screen and (max-width: 900px) {
+    * {
+        --cardImageWidth: 100%;
+    }
+    .card {
+        width: 39vw;
+        max-width: 15rem;
+        max-height: 18rem;
+        padding: 0;
+    }
+
+    
+    .listView .card {
+        width: 15rem;
+        padding: 1rem;
+        max-height: 100%;
+    }
+
+    .card_image {
+        width: var(--cardImageWidth);
+        max-width: 20rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        --cardImageWidth: 100%;
+    }
+    .card {
+        width: 39vw;
+        margin: 1rem 0;
+        max-width: 20rem;
+        max-height: 10rem;
+        padding: 0;
+    }
+
+    
+    .listView .card {
+        width: 15rem;
+        max-height: 100%;
+    }
+
+    .card_image {
+        width: var(--cardImageWidth);
+        max-height: 10rem;
+    }
+
+    .listView .card_image {
+        max-height: 12rem;
+    }
+}
