@@ -19,6 +19,7 @@
 
 .card_image {
     z-index: 0;
+    min-height: 5rem;
     border-radius: 0.5rem;
     background: var(--cardColor);
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
