@@ -18,12 +18,11 @@ function Card(props) {
   }
 
   function changeUser() {
-    console.log()
     dispatch(userNameChanged(data.user.username));
   }
 
   // store blur image for placeholder till the original image is loaded
-  const blurImage = (
+  const blurImage = data?.blur_hash ? (
     <Blurhash
       className="card_image"
       hash={data?.blur_hash}
@@ -31,9 +30,10 @@ function Card(props) {
       height={"var(--cardImageHeight)"}
       punch={1}
     />
+  ) : (
+    <div />
   );
 
-  console.log(data);
   return (
     <Link to={url}>
       <div key={data?.id} className="card flex flex_direction_column">
