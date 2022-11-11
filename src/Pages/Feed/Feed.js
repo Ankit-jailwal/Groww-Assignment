@@ -58,9 +58,15 @@ function Feed() {
                 }
                 {
                     !noData && (
-                        
+                        <InfiniteScroll
+                            initialLoad={false}
+                            loadMore={loadMore}
+                            hasMore={true}
+                            loader={<div className="loader" key={0}/>}
+                            useWindow={true}
+                        >
                             <ListView data={state?.imageList}/>
-
+                        </InfiniteScroll>
                     )
                 }
             </div>
