@@ -1,5 +1,45 @@
 .feed {
-    background-color: white;
+    margin-top: var(--basicMargin);
+    background-color: var(--backgroundColor);
     width: 100%;
-    height: 20rem;
+}
+
+.feed_container {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1.5rem 4rem;
+}
+
+.feed_error {
+    margin-top: 4rem;
+    min-width: 20vw;
+    text-align: center;
+    padding: 3rem 4rem;
+    background: var(--cardColor);
+    border: 2px solid black;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 0.5rem;
+}
+
+.loader {
+    display: inline-block;
+    margin: 1rem 42%;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #3498db;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    animation: spin 2s linear infinite;
+  }
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .feed_container {
+        padding: 1rem 4vw;
+    }
 }
