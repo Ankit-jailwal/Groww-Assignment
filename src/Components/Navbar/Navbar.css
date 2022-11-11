@@ -1,5 +1,36 @@
-.navbar {
-    background-color: black;
+.brand_logo {
     width: 100%;
-    height: 10rem;
+    height: 100%;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: var(--navbarColor);
+    padding: 1rem 0;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 100%;
+    z-index: 5;
+}
+
+.navbar_container {
+    width: 90%;
+}
+
+.navbar_logo {
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.heading_text {
+    color: white;
+}
+
+.theme_button {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.4rem 0;
+    background: var(--cardColor);
+    border-radius: 20rem;
+    border-color: transparent;
 }
