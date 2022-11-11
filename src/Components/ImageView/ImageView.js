@@ -4,7 +4,6 @@ function ImageView(props) {
   let state = [];
   if (props.data) state = props.data;
 
-    console.log("Dattaaaa : " + props.data)
     const imageList = state.map((data) => <Card data={data} key={data.id}/>);
 
     return (
