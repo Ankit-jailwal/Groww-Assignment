@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Groww Feed Asignment
+A web app having functionality similar to Instagram's news feed and profile
+section using Unsplash OpenApi.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### <a href="https://ankit-jailwal.github.io/Groww-Assignment/#/Feed" target="_blank">Live website</a>
 
-## Available Scripts
+## Screenshot
+* ###  Listview
 
-In the project directory, you can run:
+![Screenshot 2022-11-11 164350](https://user-images.githubusercontent.com/55527244/201329073-2b3b36bb-91a8-46d6-ac07-f375bbdff96a.jpg)
 
-### `npm start`
+* ### Gridview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![ProfileGroww](https://user-images.githubusercontent.com/55527244/201329132-2fde7d39-edb5-4b86-9632-f3691aa5d73a.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* ### Light theme
 
-### `npm test`
+![Screenshot 2022-11-11 164207](https://user-images.githubusercontent.com/55527244/201329145-c40f4120-ffc5-4a10-8cd2-db72beb115c8.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* ### Dark theme
 
-### `npm run build`
+![Screenshot 2022-11-11 164141](https://user-images.githubusercontent.com/55527244/201329157-8a541043-bc1b-4ef3-a63b-64826306ccc9.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
+* Supports dynamic routing.
+* Used redux for state management.
+* Used caching for reducing api calls.
+* Covered all edge cases.
+* Well defined folder structure.
+* Responsive UI.
+* Hosted using github.
+* Dark/Light mode.
+* Infinite scroll after every 10 images.
+* Lazy loading supported.
+* Used blurhash placeholder technique for images.
+* Seperate page for user profile.
+## Supported platforms
+* Android
+* iOS
+* Web
+## Installation
+Run npm i command to install all packages.
+```javascript
+npm i
+```
+After that npm start to run the project in localhost.
+```javascript
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Click here to view app demo](https://upload.wikimedia.org/wikipedia/commons/b/bb/Groww_app_logo.png)](https://prabhashrai02.github.io/groww-feed-app/)
