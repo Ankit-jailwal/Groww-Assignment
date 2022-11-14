@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Groww-Assignment/static/css/main.67af03e9.css",
-    "main.js": "/Groww-Assignment/static/js/main.12e1e939.js",
+    "main.js": "/Groww-Assignment/static/js/main.e3c1c814.js",
     "index.html": "/Groww-Assignment/index.html",
     "main.67af03e9.css.map": "/Groww-Assignment/static/css/main.67af03e9.css.map",
-    "main.12e1e939.js.map": "/Groww-Assignment/static/js/main.12e1e939.js.map"
+    "main.e3c1c814.js.map": "/Groww-Assignment/static/js/main.e3c1c814.js.map"
   },
   "entrypoints": [
     "static/css/main.67af03e9.css",
-    "static/js/main.12e1e939.js"
+    "static/js/main.e3c1c814.js"
   ]
 }
