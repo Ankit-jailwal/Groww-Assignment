@@ -5,6 +5,7 @@ import { BsFillGrid1X2Fill } from "react-icons/bs";
 import { FaThList } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import { useSelector, useDispatch } from "react-redux";
+import { Audio, TailSpin } from 'react-loader-spinner'
 import {
   fetchUser,
   userNameChanged,
@@ -33,7 +34,7 @@ function Profile() {
     if (Number(state?.userDetail?.photos?.length) === 0) setEmpty(true);
     else setEmpty(false);
 
-    // handle no useer with given username
+    // handle no user with given username
     if (state?.userDetail?.username !== undefined) {
       dispatch(removeError());
     } else {
@@ -70,9 +71,7 @@ function Profile() {
       {noUserFound && !searchingUser && (
         <div className="user_profile">
           <div className="user_detail flex flex_wrap_wrap align_items_center justify_content_space_around">
-            <div className="view_zero_post no_user">
-              {state?.error?.errors}!!!
-            </div>
+          <TailSpin color="#475157"/>
           </div>
         </div>
       )}
